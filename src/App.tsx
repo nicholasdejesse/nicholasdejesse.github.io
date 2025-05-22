@@ -1,7 +1,12 @@
 import "./App.css"
 
 function App(){
-  return <h1 className="name">Nicholas DeJesse</h1>
+  return <>
+  <div className="hero">
+    <h1>Nicholas DeJesse</h1>
+    <h2>Software Engineer, Web Developer, Researcher</h2>
+  </div>
+  </>
 }
 
 export default App

@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
 body{
-  background-color: #242526;
+  background-color: #161717;
+  margin: 0px;
+  padding: 0px;
 }
