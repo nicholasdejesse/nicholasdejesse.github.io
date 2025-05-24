@@ -6,14 +6,39 @@ h2{
   font-size:2em;
   font-weight: 400;
 }
+ul{
+  margin:0px;
+}
+ul li{
+  list-style:none;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  position:sticky;
+  width:100%;
+  padding:20px;
+}
+.github{
+  width:60px;
+}
 .hero{
   display:flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items:center;
   flex-direction: column;
 
   height: 100vh;
 
   color:white;
   font-family: 'Century Gothic', sans-serif;
+}
+.titles{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.down_chevron{
+  width:40px;
+  padding-bottom: 5vh;
 }
