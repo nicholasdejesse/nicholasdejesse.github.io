@@ -6,16 +6,16 @@ h2{
   font-size:2em;
   font-weight: 400;
 }
-ul{
+nav ul{
   margin:0px;
 }
-ul li{
+nav ul li{
   list-style:none;
 }
 nav{
   display: flex;
   justify-content: flex-end;
-  position:sticky;
+  position: fixed;
   width:100%;
   padding:20px;
 }
@@ -24,11 +24,11 @@ nav{
 }
 .hero{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items:center;
   flex-direction: column;
 
-  height: 100vh;
+  height: 90vh;
 
   color:white;
   font-family: 'Century Gothic', sans-serif;
@@ -38,7 +38,17 @@ nav{
   flex-direction: column;
   align-items: center;
 }
-.down_chevron{
+.down-chevron{
   width:40px;
   padding-bottom: 5vh;
+}
+.content{
+  display: flex;
+  justify-content: center;
+}
+.descriptions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
 }
