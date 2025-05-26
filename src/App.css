@@ -1,8 +1,8 @@
-h1{
+.hero h1{
   font-size:4em;
   margin:0px;
 }
-h2{
+.hero h2{
   font-size:2em;
   font-weight: 400;
 }

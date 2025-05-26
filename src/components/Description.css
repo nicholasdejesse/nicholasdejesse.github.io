@@ -1,4 +1,4 @@
-.container{
+.description-container{
     display:flex;
     flex-direction: column;
 
@@ -7,7 +7,26 @@
     color: white;
     font-family: 'Century Gothic', sans-serif;
 }
-.title-dates{
+.description-container .title-dates{
     display:flex;
     justify-content: space-between;
+}
+.description-container h1{
+    font-size: 1.5em;
+    margin:4px 0;
+}
+.description-container h2{
+    font-size: 1.3em;
+    font-weight: 100;
+    margin:4px 0;
+}
+.description-container h3{
+    margin:7px 0;
+    font-weight: 100;
+}
+.description-container ul{
+    margin:7px 0;
+}
+.description-container ul li{
+    margin:3px 0;
 }

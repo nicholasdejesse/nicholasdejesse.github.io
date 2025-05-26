@@ -13,7 +13,7 @@ export default function Description(props: DescriptionProps){
     const subtitle = props.subtitle;
     const description = props.description;
 
-    return <div className="container">
+    return <div className="description-container">
         <div className="title-dates">
             <h1 className="title">{title}</h1>
             <h2 className="dates">{dates}</h2>
