@@ -2,8 +2,8 @@
     display:flex;
     flex-direction: column;
 
-    padding:15px;
-    margin: 10px;
+    margin: 0 10px 20px 10px;
+    padding: 0 15px;
     width:100%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
@@ -26,7 +26,7 @@
     font-weight: 100;
 }
 .description-container ul{
-    margin:7px 0;
+    margin:3px 0;
 }
 .description-container ul li{
     margin:3px 0;

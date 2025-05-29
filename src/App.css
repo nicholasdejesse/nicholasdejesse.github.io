@@ -60,6 +60,7 @@ nav{
   margin:20px 0;
 
   color:white;
+  text-decoration: underline;
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.5em;
 }

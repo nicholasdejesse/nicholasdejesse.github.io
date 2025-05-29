@@ -7,6 +7,11 @@ function TestDescription(){
   return <Description title="Test" dates="Jan 2024 - Present" subtitle="Researcher" description={description}/>
 }
 
+function EducationDescription(){
+  const description = ["Music Minor, Business Minor", "GPA: 4.00 out of 4.00"]
+  return <Description title="University of Rochester" dates="Anticipated May 2027" subtitle="B.S. Computer Science" description={description}/>
+}
+
 export default function App(){
   return <>
   <nav>
@@ -22,6 +27,8 @@ export default function App(){
   </div>
   <div className="content">
     <div className="descriptions">
+      <h3 className="section-title">Education</h3>
+      <EducationDescription />
       <h3 className="section-title">Experience</h3>
       <TestDescription />
       <TestDescription />
