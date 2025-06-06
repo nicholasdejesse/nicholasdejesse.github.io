@@ -3,7 +3,7 @@ import "./Description.css"
 interface DescriptionProps {
     title: string;
     dates: string;
-    subtitle: string;
+    subtitle?: string;
     description: string[];
 }
 
@@ -18,7 +18,7 @@ export default function Description(props: DescriptionProps){
             <h1 className="title">{title}</h1>
             <h2 className="dates">{dates}</h2>
         </div>
-        <h3 className="subtitle">{subtitle}</h3>
+        {props.subtitle ? <h3 className="subtitle">{subtitle}</h3> : null}
         <ul>
             {description.map((d) => <li>{d}</li>)}
         </ul>
