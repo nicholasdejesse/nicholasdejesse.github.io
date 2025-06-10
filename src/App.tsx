@@ -2,6 +2,8 @@ import "./App.css"
 import "./components/Description"
 import Description from "./components/Description"
 import Publication from "./components/Publication"
+import githubImage from "./assets/github-mark-white.svg"
+import arxivImage from "./assets/arxiv-logomark-small.svg"
 
 // function TestDescription(){
 //   const description = ["Did stuff", "Wrote things", "Won award"]
@@ -114,7 +116,7 @@ export default function App(){
   return <>
   <nav>
     <ul>
-      <li><a href="https://github.com/NicoBobBison" target="_blank"><img className="github" src="../assets/github-mark-white.svg" alt="GitHub link"/></a></li>
+      <li><a href="https://github.com/NicoBobBison" target="_blank"><img className="github" src={githubImage} alt="GitHub link"/></a></li>
     </ul>
   </nav>
   <div className="hero">
@@ -144,7 +146,7 @@ export default function App(){
       <RoboticsClubDescription />
       <h3 className="section-title">Publications</h3>
       <div className="publications">
-        <Publication title="A Critique of Lin's &quot;On NP versus coNP and Frege Systems&quot;" link="https://arxiv.org/abs/2505.05658" image_path="src/assets/arxiv-logomark-small.svg"/>
+        <Publication title="A Critique of Lin's &quot;On NP versus coNP and Frege Systems&quot;" link="https://arxiv.org/abs/2505.05658" image_path={arxivImage}/>
       </div>
     </div>
     <p className="credit">Website made by Nicholas DeJesse with HTML, CSS, and React.</p>
