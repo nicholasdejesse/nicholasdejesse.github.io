@@ -1,8 +1,8 @@
 {
+  "homepage": "https://NicoBobBison.github.io/",
   "name": "portfoliowebsite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://NicoBobBison.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
