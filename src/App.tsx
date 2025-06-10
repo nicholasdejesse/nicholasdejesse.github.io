@@ -3,10 +3,10 @@ import "./components/Description"
 import Description from "./components/Description"
 import Publication from "./components/Publication"
 
-function TestDescription(){
-  const description = ["Did stuff", "Wrote things", "Won award"]
-  return <Description title="Test" dates="Jan 2024 - Present" subtitle="Researcher" description={description}/>
-}
+// function TestDescription(){
+//   const description = ["Did stuff", "Wrote things", "Won award"]
+//   return <Description title="Test" dates="Jan 2024 - Present" subtitle="Researcher" description={description}/>
+// }
 
 function EducationDescription(){
   const description = ["Music Minor, Business Minor", "GPA: 4.00 out of 4.00"]
@@ -114,7 +114,7 @@ export default function App(){
   return <>
   <nav>
     <ul>
-      <li><a href="https://github.com/NicoBobBison" target="_blank"><img className="github" src="src\assets\github-mark-white.svg" alt="GitHub link"/></a></li>
+      <li><a href="https://github.com/NicoBobBison" target="_blank"><img className="github" src="../assets/github-mark-white.svg" alt="GitHub link"/></a></li>
     </ul>
   </nav>
   <div className="hero">

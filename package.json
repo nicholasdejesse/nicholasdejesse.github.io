@@ -2,11 +2,11 @@
   "name": "portfoliowebsite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://NicoBobBison.github.io",
+  "homepage": "https://NicoBobBison.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
