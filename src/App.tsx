@@ -1,6 +1,7 @@
 import "./App.css"
 import "./components/Description"
 import Description from "./components/Description"
+import Publication from "./components/Publication"
 
 function TestDescription(){
   const description = ["Did stuff", "Wrote things", "Won award"]
@@ -73,6 +74,14 @@ function NfaToDfaConverterDescription() {
   return <Description title="NFA to DFA Converter" dates="Fall 2023" description={description} />;
 }
 
+function CoffeeClubDescription(){
+  const description = [
+    "Took photos during club meetings to post on the club's Instagram account",
+    "Helped organize and run weekly trips to coffee shops and cafés in downtown Rochester",
+  ];
+  return <Description title="Coffee Club" dates="January 2025 - Present" subtitle="Publicity Chair" description={description} />
+}
+
 function VideoGameDevClubDescription() {
   const description = [
     "Led weekly meetings for a group of 15+ members and oversaw the execution of various club projects",
@@ -130,9 +139,15 @@ export default function App(){
       <SimpleBoidsDescription />
       <NfaToDfaConverterDescription />
       <h3 className="section-title">Campus Leadership Activities</h3>
+      <CoffeeClubDescription />
       <VideoGameDevClubDescription />
       <RoboticsClubDescription />
+      <h3 className="section-title">Publications</h3>
+      <div className="publications">
+        <Publication title="A Critique of Lin's &quot;On NP versus coNP and Frege Systems&quot;" link="https://arxiv.org/abs/2505.05658" image_path="src/assets/arxiv-logomark-small.svg"/>
+      </div>
     </div>
+    <p className="credit">Website made by Nicholas DeJesse with HTML, CSS, and React.</p>
   </div>
   </>
 }

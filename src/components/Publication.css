@@ -1,0 +1,33 @@
+.pub-container{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    text-decoration: none;
+    background-color: #222424;
+
+    padding: 10px;
+    width: min(95vw, 250px);
+    height: min(95vh, 300px);
+}
+.pub-container:hover{
+    transition-duration: 0.1s;
+    background-color: #303333;
+    box-shadow: #303333 0px 7px 29px 0px;
+}
+.pub-image{
+    width: 50%;
+}
+.pub-title{
+    color:white;
+    text-decoration: none;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
